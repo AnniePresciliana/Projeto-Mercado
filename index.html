@@ -3,40 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Fornecedor</title>
+    <script src="jquery-3.0.0.js"></script>
+    <script src="jquerycode.js"></script>
     
-      <script src="js/jquery-3.0.0.min.jsj"></script>
+    
 </head>
 <body>
     
    
+<table id="listas" border="0">
+        <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Data de cadastro</th>
+                <th>Codigo</th>
+                <th>CNPJ</th>
+        </tr>
+        <tr>
+                <td><input type="text" name="utente[]" id="utente" maxlength="150"></td>
+                <td><input type="text" name="tel[]" id ="tel" maxlenght="10" ></td>
+                <td><input type="text" name="dta[]" id="dta" maxlength="10" placeholder="yyyy-mm-dd"</td>
+                <td><input type="text" name="cod[]" id="cod" maxlength="10"></td>
+                <td><input type="text" name="cnpj[]" id="cnpj" maxlength="30">
+                
+                </td>
+                
+                
+                
+               
+                </td>
+        </tr>
+</table> 
+    <input type="button" id="add_field" value="Adicionar">
     
-    
-    <h1>Cadastro de fornecedor<h1>
-    
-    
-<form>
-    <fieldset>
-        <legend> Informações do fornecedor</legend>
-        Nome:
-        <input type="nome"><br>
-        Codigo:
-        <input type="codigo"><br>
-        Telefone:
-        <input type="telefone"><br>
-        Vendedor:
-        <input type="vendedor"><br>
-       <input type="button" name="botao-ok" value="Confirmar"></br>
-       <input type="button" name="cancelar" value="Cancelar">
-       
-    </fieldset>
-    </form>
-    
-    
-    
-</body>
-
-      
-    <script src="teste.js"></script>
-
-</body>
 </html>
