@@ -1,22 +1,3 @@
-  
-
-var teste = {
-    $( document).ready( function(){
-                  $('h1')
-                    .css("color","#f66")
-                    .hide()
-                    .delay('2000')
-                    .fadeIn("slow")
-                    
-                    .click(function(){
-                    $('body').css("background","#f55")
-                    $('h1').css("color")
-            });
-            });
-    
-                  }
-    
-}
-
-                  
-          teste.init();     
+$(document).reday(function(){
+   $('legend').hide().delay('2000').fadeIn(1000).css({color:'red'}) 
+});
